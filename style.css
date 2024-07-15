@@ -1,0 +1,232 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#main_bg {
+    height: 100vh;
+    width: 100%;
+}
+
+.main {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.title {
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    left: 50%;
+    transform: translate(25%);
+    color: white;
+    text-shadow: 5px 5px 3px gray;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.title h1 {
+    font-size: 3.75em;
+}
+
+.main_info {
+    width: 47%;
+    position: absolute;
+    text-align: center;
+    top: 37%;
+    left: 50%;
+    color: white;
+    text-shadow: 3px 3px 3px gray;
+    font-family: 'Crimson Pro', serif;
+}
+
+.main_info p {
+    font-size: 2.3em;
+}
+
+.row1 {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+}
+
+.row2 {
+    display: flex;
+    height: 50vh;
+    width: 100%;
+}
+
+.Birds {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.Birds img {
+    height: 50vh;
+    width: 100%;
+    display: block;
+}
+
+.layer {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.7s;
+}
+
+.layer:hover {
+    background: rgba(226, 0, 0, 0.7);
+}
+
+.layer a {
+    font-weight: 500;
+    color: white;
+    font-size: 1.7em;
+    text-decoration: none;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer:hover a {
+    bottom: 43%;
+    opacity: 1;
+}
+
+.footer {
+    font-family: 'Crimson Pro', serif;
+    height: 38vh;
+    width: 100%;
+    text-shadow: 1px 1px #282c28;
+    background-color: #d0c4c6;
+    color: #5b5c55;
+}
+
+.footer h3 {
+    padding: 1.5%;
+    font-size: 2.3em;
+    text-align: center;
+    color: #303e24;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.footer p {
+    padding: 0.5%;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#sub,
+#email,
+#btn {
+    margin: auto;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    font-family: 'Crimson Pro', serif;
+}
+
+#email {
+    width: 25%;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: none;
+}
+
+#btn {
+    width: 5%;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-weight: bold;
+    background-color: #3c5124;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+}
+
+.email {
+    height: 15%;
+}
+
+.copy {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.follow {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.icons {
+    margin-top: 8%;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.social {
+    color: #3c5124;
+    text-decoration: none;
+}
+
+.photographer {
+    color: #282c28;
+    height: 100vh;
+    width: 100%;
+    padding-top: 2.5%;
+    background-color: rgb(220, 220, 220);
+}
+
+.photographer h2 {
+    margin: auto;
+    font-family: 'Cinzel Decorative', cursive;
+    margin-bottom: 1.5%;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 3px 3px 3px gray;
+}
+
+.sepration {
+    width: 100%;
+    height: 88%;
+    display: flex;
+}
+
+.author {
+    width: 100%;
+}
+
+.author img {
+    margin: 50px;
+    height: 400px;
+    width: 400px;
+    border: solid 5px #282c28;
+    border-radius: 25px;
+}
+
+.photographer p {
+    width: 200%;
+    padding: 25px;
+    font-size: 1.85em;
+    font-family: 'Crimson Pro', serif;
+    text-shadow: 1.8px 1.2px 3px gray;
+}
